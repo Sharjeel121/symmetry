@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Icosahedron</title>
+    <style>
+       * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.timeline-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content{
+    width: 100%;
+}
+.content h1 {
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.content h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.content p {
+  color: #aaa;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.line-wrapper {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-line {
+  height: 2px;
+  width: 100%;
+  background: #fff;
+}
+
+.circle-images {
+  display: flex;
+  position: absolute;
+  left: 0;
+  transform: translateX(-10px);
+}
+
+.circle-images img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  object-fit: cover;
+  margin-left: -15px;
+  background: #fff;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background: #a64b2a;
+  border-radius: 50%;
+  position: absolute;
+  left: 140px;
+  top: -25px;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 180px;
+  background: #fff;
+  position: relative;
+}
+
+.vertical-line::after,
+.vertical-line::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+    </style>
+</head>
+<body>
+
+<section class="timeline-section">
+  <div class="content">
+    <h1>2014</h1>
+    <h2>Year of establishment</h2>
+    <p>More than 10 years in the field</p>
+
+    <div class="line-wrapper">
+      <div class="circle-images">
+        <img src="/images/homepage/client1.svg" alt="client1">
+        <img src="/images/homepage/client2.svg" alt="client2">
+        <img src="/images/homepage/client3.svg" alt="client3">
+      </div>
+      <span class="dot"></span>
+      <div class="horizontal-line"></div>
+    </div>
+  </div>
+
+  <div class="vertical-line"></div>
+</section>
+
+<script>
+   
+</script>
+
+</body>
+</html>

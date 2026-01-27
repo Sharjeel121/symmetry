@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Figma to HTML Developer Assessment" />
+    <title>Developer Assessment</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header container-fluid">
+        <div class="container">
+            <nav class="header__nav" aria-label="Main navigation">
+                <a href="/" class="header__logo" aria-label="Test Home">
+                    <img src="images/logo.svg" alt="Test Logo">
+                </a>
+
+                <button class="header__toggle" type="button" aria-label="Toggle menu" aria-expanded="false"
+                    data-toggle="header-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="header__menu" id="header-menu">
+                    <li><a href="/" class="header__link active">Home</a></li>
+                    <li><a href="#" class="header__link">Services</a></li>
+                    <li><a href="#" class="header__link">Contact us</a></li>
+                    <li><a href="#" class="header__link">About us</a></li>
+                    <li><a href="#" class="btn__primary header__btn-mobile">Login</a></li>
+                </ul>
+
+                <a href="#" class="btn__primary">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero__section">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <div class="hero__clients">
+                        <div class="client__imgs">
+                            <img src="/images/homepage/client1.svg" alt="client1">
+                            <img src="/images/homepage/client2.svg" alt="client2">
+                            <img src="/images/homepage/client3.svg" alt="client3">
+                            <img src="/images/homepage/client4.svg" alt="client4">
+                            <img src="/images/homepage/client5.svg" alt="client5">
+                        </div>
+                        <div class="client__text">
+                            <img src="/images/icons/five-stars.svg" alt="five stars">
+                            <p>115+ happy clients</p>
+                        </div>
+                    </div>
+                    <h1>
+                        Automate <span class="color-primary">Intelligence</span>.
+                        Accelerate Growth.
+                    </h1>
+                    <p>Our AI-powered SaaS platform empowers businesses to streamline operations, automate repetitive
+                        tasks, and make smarter, data-driven decisions—all from one intuitive dashboard.</p>
+                    <div class="hero__btns">
+                        <a href="#" class="btn__primary btn__hero">Get Started</a>
+                        <a href="#" class="btn__secondary btn__hero">See Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__count">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="client__count">
+                            <h6>Clients</h6>
+                            <div class="count">120k+</div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="project__count">
+                            <h6>Projects</h6>
+                            <div class="count">150+</div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="review__count">
+                            <h6>5-Star Reviews</h6>
+                            <div class="count">32k+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== END HERO SECTION ===== -->
+        <section class="designer__section">
+            <div class="container">
+                <div class="row g-4 designer__header">
+                    <div class="col-md-8 col-xl-6">
+                        <h2>Designed for Designers.<br> Powered by <span class="color-primary"><b>AI</b></span>.</h2>
+                        <p class="color-text-muted">Unlock the full potential of your creativity with our AI-powered
+                            design assistant. Explore new dimensions of desig</p>
+                    </div>
+                    <div class="col-md-4 col-xl-6 content-middle">
+                        <img src="/images/homepage/hexa-vector.svg" alt="hexa vector">
+
+                        <!-- <canvas id="canvas" ></canvas> -->
+                    </div>
+                </div>
+
+                <div class="row g-4 designer__cards">
+                    <div class="col-lg-5">
+                        <article class="card__gredient1">
+                            <div class="card__content">
+                                <p>Skip the blank canvas and spark creativity instantly. Our AI generates
+                                    high-quality, on-brand design concepts within seconds</p>
+                                <h3>Instant Ideation</h3>
+                            </div>
+                            <a href="#" class="card__link">
+                                <img src="/images/icons/arrow-white.svg" alt="arrow white">
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-lg-7">
+                        <article class="card__gredient2">
+                            <div class="card__content">
+                                <p>No two creators are the same, and neither are their styles. Our AI learns from
+                                    your
+                                    inputs, understands your aesthetic preferences, and fine-tunes every design</p>
+                                <h3>Smart Adaptability</h3>
+                            </div>
+                            <a href="#" class="card__link">
+                                <img src="/images/icons/arrow-white.svg" alt="arrow white">
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-lg-7">
+                        <article class="card__gredient2">
+                            <div class="card__content">
+                                <p>Design once, export anywhere. Whether you need high-res graphics for print,
+                                    responsive visuals for the web, mobile-optimized assets,</p>
+                                <h3>Multi-Format Export</h3>
+                            </div>
+                            <a href="#" class="card__link">
+                                <img src="/images/icons/arrow-white.svg" alt="arrow white">
+                            </a>
+                        </article>
+                    </div>
+                    <div class="col-lg-5">
+                        <article class="card__gredient1">
+                            <div class="card__content">
+                                <p>Say goodbye to repetitive tweaks and endless back-and-forths. With intuitive
+                                    prompt-based editing</p>
+                                <h3>Seamless Revisions</h3>
+                            </div>
+                            <a href="#" class="card__link">
+                                <img src="/images/icons/arrow-white.svg" alt="arrow white">
+                            </a>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="row designer__summary">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="designer__year-block">
+                            <p class="color-text-muted">2025</p>
+                            <h4>
+                                Whether you're designing for personal projects, creative teams, or large-scale campaigns, our AI-powered platform is built to bring your ideas to life—quickly, beautifully, and intelligently. And the results? The numbers speak for themselves:
+                            </h4    >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row stats__blocks g-4">
+                    <div class="col-6 col-md-3">
+                        <div class="stats__block">
+                            <h2><b>2014</b></h2>
+                            <h6>Year of establishment</h6>
+                            <p>More than 10 years in the field</p>
+                            <div class="img__decor img__decor--bottom">
+                                <div class="overlap__imgs">
+                                    <img src="/images/homepage/year-user1.svg" alt="user profile1">
+                                    <img src="/images/homepage/year-user2.svg" alt="user profile2">
+                                    <img src="/images/homepage/year-user3.svg" alt="user profile3">
+                                </div>
+                                <div class="horizontal__line"></div>
+                                <div class="vertical__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stats__block2">
+                           <h2><b>304</b></h2>
+                            <h6>Projects are launched</h6>
+                            <p>Alot of projects are done</p>
+                            <div class="img__decor img__decor--top">
+                                <div class="overlap__imgs">
+                                    <img src="/images/homepage/project1.svg" alt="project 1">
+                                    <img src="/images/homepage/project2.svg" alt="project 2">
+                                    <img src="/images/homepage/project1.svg" alt="project 3">
+                                </div>
+                                <div class="horizontal__line"></div>
+                                <div class="vertical__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stats__block">
+                            <h2><b>189</b></h2>
+                            <h6>Clients are satisfied</h6>
+                            <p>These people love us</p>
+                            <div class="img__decor img__decor--bottom">
+                                <div class="overlap__imgs">
+                                    <img src="/images/homepage/client6.svg" alt="client 6">
+                                    <img src="/images/homepage/client7.svg" alt="client 7">
+                                    <img src="/images/homepage/client8.svg" alt="client 8">
+                                </div>
+                                <div class="horizontal__line"></div>
+                                <div class="vertical__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stats__block2">
+                           <h2><b>12</b></h2>
+                            <h6>Projects in work</h6>
+                            <p>What we do right now </p>
+                            <div class="img__decor img__decor--top">
+                                <div class="overlap__imgs">
+                                    <img src="/images/homepage/work1.svg" alt="work1">
+                                    <img src="/images/homepage/work2.svg" alt="work2">
+                                    <img src="/images/homepage/work3.svg" alt="work3">
+                                </div>
+                                <div class="horizontal__line"></div>
+                                <div class="vertical__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="btn__group">
+                            <a href="#" class="btn__primary btn__arrow">Get Started</a>
+                            <a href="#" class="slot__link">Slots are avaliable </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <!-- JS -->
+    <script src="vendor/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+
+</body>
+
+</htm
