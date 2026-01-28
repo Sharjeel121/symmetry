@@ -42,6 +42,28 @@ window.addEventListener("scroll", () => {
 
 gsap.registerPlugin(ScrollTrigger); //plugin registration
 
+// heading running animation
+const words = ["Intelligence", "Innovation", "Creativity"];
+const wordSpan = document.querySelector(".marquee");
+let index = 0;
+
+function typeWord() {
+  gsap.to(wordSpan, {
+    duration: 1, 
+    text: words[index],
+    ease: "none",
+    onComplete: () => {
+      setTimeout(() => {
+        index = (index + 1) % words.length;
+        typeWord();
+      }, 1000);
+    }
+  });
+}
+
+// Start typing animation
+typeWord();
+
 // Counter running numbers 
 gsap.utils.toArray(".count").forEach((counter) => {
   const target = +counter.dataset.count;
