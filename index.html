@@ -77,25 +77,29 @@
                     <div class="col-4">
                         <div class="client__count">
                             <h6>Clients</h6>
-                            <div class="count">120k+</div>
+                            <div class="count" data-count="120" data-suffix="k+">0</div>
                         </div>
                     </div>
+
                     <div class="col-4">
                         <div class="project__count">
                             <h6>Projects</h6>
-                            <div class="count">150+</div>
+                            <div class="count" data-count="150" data-suffix="+">0</div>
                         </div>
                     </div>
+
                     <div class="col-4">
                         <div class="review__count">
                             <h6>5-Star Reviews</h6>
-                            <div class="count">32k+</div>
+                            <div class="count" data-count="32" data-suffix="k+">0</div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
-        <!-- ===== END HERO SECTION ===== -->
+
+        <!-- Designer Section -->
         <section class="designer__section">
             <div class="container">
                 <div class="row g-4 designer__header">
@@ -106,8 +110,6 @@
                     </div>
                     <div class="col-md-4 col-xl-6 content-middle">
                         <img class="hexa__img" src="/images/homepage/hexa-vector.svg" alt="hexa vector">
-
-                        <!-- <canvas id="canvas" ></canvas> -->
                     </div>
                 </div>
 
@@ -127,8 +129,7 @@
                     <div class="col-lg-7">
                         <article class="card__gredient2">
                             <div class="card__content">
-                                <p>No two creators are the same, and neither are their styles. Our AI learns from
-                                    your
+                                <p>No two creators are the same, and neither are their styles. Our AI learns from your
                                     inputs, understands your aesthetic preferences, and fine-tunes every design</p>
                                 <h3>Smart Adaptability</h3>
                             </div>
@@ -140,8 +141,8 @@
                     <div class="col-lg-7">
                         <article class="card__gredient2">
                             <div class="card__content">
-                                <p>Design once, export anywhere. Whether you need high-res graphics for print,
-                                    responsive visuals for the web, mobile-optimized assets,</p>
+                                <p>Design once, export anywhere. Whether you need high-res graphics for print,responsive
+                                    visuals for the web, mobile-optimized assets,</p>
                                 <h3>Multi-Format Export</h3>
                             </div>
                             <a href="#" class="card__link">
@@ -168,8 +169,10 @@
                         <div class="designer__year-block">
                             <p class="color-text-muted">2025</p>
                             <h4>
-                                Whether you're designing for personal projects, creative teams, or large-scale campaigns, our AI-powered platform is built to bring your ideas to life—quickly, beautifully, and intelligently. And the results? The numbers speak for themselves:
-                            </h4    >
+                                Whether you're designing for personal projects, creative teams, or large-scale
+                                campaigns, our AI-powered platform is built to bring your ideas to life—quickly,
+                                beautifully, and intelligently. And the results? The numbers speak for themselves:
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -193,7 +196,7 @@
                     </div>
                     <div class="col-6 col-md-3">
                         <div class="stats__block2">
-                           <h2><b>304</b></h2>
+                            <h2><b>304</b></h2>
                             <h6>Projects are launched</h6>
                             <p>Alot of projects are done</p>
                             <div class="img__decor img__decor--top">
@@ -225,7 +228,7 @@
                     </div>
                     <div class="col-6 col-md-3">
                         <div class="stats__block2">
-                           <h2><b>12</b></h2>
+                            <h2><b>12</b></h2>
                             <h6>Projects in work</h6>
                             <p>What we do right now </p>
                             <div class="img__decor img__decor--top">
@@ -248,16 +251,335 @@
                 </div>
             </div>
         </section>
+
+        <!-- Pricing Plan Section -->
+        <section class="pricing__section pricing">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-10 col-md-8 col-xl-6 mx-auto px-xl-4">
+                        <h2><b>Choose the Plan That’s Right for You</b></h2>
+                        <p class="color-text-muted">Giving you access to essential features and over 1,000 creative
+                            tools. Upgrade to the Pro Plan to unlock powerful AI capabilities, cloud syncing, and a
+                            whole new level of creative freedom.</p>
+                    </div>
+                </div>
+
+                <!-- Toggle -->
+                <div class="pricing__toggle">
+                    <div class="toggle__wrapper">
+                        <button class="toggle__btn toggle__btn--active" id="monthlyBtn" aria-pressed="true">
+                            Monthly
+                        </button>
+                        <button class="toggle__btn" id="yearlyBtn" aria-pressed="false">
+                            Yearly
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Cards -->
+                <div class="pricing__cards">
+
+                    <!-- Free -->
+                    <article class="pricing__card">
+                        <h5 class="card__title">Free</h5>
+                        <p class="card__description">Everything you need to supercharge your productivity.</p>
+
+                        <div class="card__price">
+                            <span class="price__amount">$0</span>
+                            <span class="price__period">/ month</span>
+                        </div>
+                        <hr>
+                        <ul class="features__list">
+                            <p>Whats included</p>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                20 design generations/month
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                Low-res downloads
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                Basic style presets
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                Limited customization options
+                            </li>
+                        </ul>
+
+                        <div class="card__cta">
+                            <a href="#" class="btn__subscribe">Subscribe <img src="/images/icons/simple-arrow.svg"
+                                    alt=">"></a>
+                        </div>
+                    </article>
+
+                    <!-- Pro -->
+                    <article class="pricing__card pricing__card--featured">
+                        <h5 class="card__title">Pro</h5>
+                        <p class="card__description">Unlock a new level of your personal productivity.</p>
+
+                        <div class="card__price">
+                            <span class="price__amount">$17</span>
+                            <span class="price__period">/ month</span>
+                            <span class="price__badge">-20%</span>
+                        </div>
+                        <hr>
+                        <ul class="features__list">
+                            <p>Whats included</p>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle-filled.svg" alt="tick circle">
+                                Everything in Free
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle-filled.svg" alt="tick circle">
+                                Enginex AI
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle-filled.svg" alt="tick circle">
+                                Unlimited design generations
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle-filled.svg" alt="tick circle">
+                                Custom Themes
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle-filled.svg" alt="tick circle">
+                                High-resolution exports
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle-filled.svg" alt="tick circle">
+                                Custom Extensions
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle-filled.svg" alt="tick circle">
+                                Developer Tools
+                            </li>
+                        </ul>
+                        <div class="card__cta">
+                            <a href="#" class="btn__subscribe">Subscribe <img src="/images/icons/simple-arrow.svg"
+                                    alt=">"></a>
+                        </div>
+                    </article>
+
+                    <!-- Team -->
+                    <article class="pricing__card">
+                        <h5 class="card__title">Team</h5>
+                        <p class="card__description">Everything you need to supercharge your productivity.</p>
+
+                        <div class="card__price">
+                            <span class="price__amount">$37</span>
+                            <span class="price__period">/ month</span>
+                        </div>
+                        <hr>
+                        <ul class="features__list">
+                            <p>Whats included</p>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                Everything in Free
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                Unlimited Shared Commands
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                Unlimited Shared Guidelines
+                            </li>
+                            <li class="features__item">
+                                <img src="/images/icons/tick-circle.svg" alt="tick circle">
+                                Priority support
+                            </li>
+                        </ul>
+
+                        <div class="card__cta">
+                            <a href="#" class="btn__subscribe">Subscribe <img src="/images/icons/simple-arrow.svg"
+                                    alt=">"></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section  -->
+        <section class="faq__section">
+            <img src="/images/homepage/round-rectangle1.svg" alt=" round rectangle" class="faq__bg-img1">
+            <img src="/images/homepage/round-rectangle2.svg" alt=" round rectangle" class="faq__bg-img2">
+            <img src="/images/homepage/circle.svg" alt="circle" class="faq__bg-img3">
+            <img src="/images/homepage/line.svg" alt="line" class="faq__bg-img4">
+            <img src="/images/homepage/line.svg" alt="line" class="faq__bg-img5">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-sm-10 col-md-8 col-xl-6 mx-auto px-xl-4">
+                        <h2><b>Frequently Asked Questions</b></h2>
+                        <p class="color-text-muted">Got questions? We've got answers. Find everything you need to
+                            know about using our platform, plans, and features.</p>
+                    </div>
+                    <div class="col-lg-9 col-xl-7">
+                        <div class="accordion our__accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What is this platform used for?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It’s an AI-powered design assistant that helps you generate, customize, and
+                                        export creative assets in seconds—whether for personal projects, brand work, or
+                                        commercial use.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        What happens if I hit my free generation limit?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It’s an AI-powered design assistant that helps you generate, customize, and
+                                        export creative assets in seconds—whether for personal projects, brand work, or
+                                        commercial use.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Do I need design experience to use it?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It’s an AI-powered design assistant that helps you generate, customize, and
+                                        export creative assets in seconds—whether for personal projects, brand work, or
+                                        commercial use.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Can I collaborate with my team?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It’s an AI-powered design assistant that helps you generate, customize, and
+                                        export creative assets in seconds—whether for personal projects, brand work, or
+                                        commercial use.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Is it really free to use?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        It’s an AI-powered design assistant that helps you generate, customize, and
+                                        export creative assets in seconds—whether for personal projects, brand work, or
+                                        commercial use.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 col-xl-9">
+                        <div class="cta__card">
+                            <h2><b>Ready to Design Smarter?</b></h2>
+                            <p>Whether you're a freelancer, a team, or a growing agency—our tools adapt to your
+                                workflow. Design faster. Deliver better.</p>
+                            <a href="#" class="btn__primary btn__arrow">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
-
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-3">
+                    <h3><strong>About Us</strong></h3>
+                    <p>We’re a team of designers, engineers, and innovators building AI tools that empower anyone to
+                        turn imagination into stunning visuals—faster, smarter, and effortlessly.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="color-primary">Useful Links</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Prices</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="color-primary">Help</h4>
+                    <ul>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="color-primary">Useful Links</h4>
+                    <ul>
+                        <li><a href="#">27 Division St, New York, NY 10002, USA</a></li>
+                        <li><a href="tel:+1233242653">+123 324 2653</a></li>
+                        <li><a href="mailto:username@mail.com">username@mail.com</a></li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="footer__below">
+                <p class="footer__copyright">© 2024 All Right Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><img src="/images/icons/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="/images/icons/github.svg" alt="github"></a>
+                    <a href="#"><img src="/images/icons/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="/images/icons/google.svg" alt="google"></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- JS -->
-    <script src="vendor/jquery.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <!-- ScrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Your scripts -->
+    <script src="js/animations.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/animation.js"></script>
 
 </body>
 
