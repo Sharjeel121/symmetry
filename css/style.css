@@ -778,6 +778,7 @@ h6 {
 .footer {
   padding: 40px 0;
   background-color: #1c21224a;
+  overflow-x: hidden;
 }
 .footer h3 {
   color: var(--color-text-main);
